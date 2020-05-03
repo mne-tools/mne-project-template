@@ -1,12 +1,15 @@
 .. -*- mode: rst -*-
 
-|Travis|_ |AppVeyor|_ |Codecov|_ |CircleCI|_ |ReadTheDocs|_
+|Travis|_ |GHActions|_ |Codecov|_ |CircleCI|_ |ReadTheDocs|_
+
+
+[![Build Status](https://github.com/PythonOT/POT/workflows/build/badge.svg)](https://github.com/PythonOT/POT/actions)
 
 .. |Travis| image:: https://travis-ci.org/mne-tools/mne-project-template.svg?branch=master
 .. _Travis: https://travis-ci.org/mne-tools/mne-project-template
 
-.. |AppVeyor| image:: https://ci.appveyor.com/api/projects/status/4qrnsuohh5g53i5u?svg=true
-.. _AppVeyor: https://ci.appveyor.com/project/mne-tools/mne-project-template
+.. |GHActions| image:: https://github.com/mne-tools/mne-project-template/workflows/build/badge.svg
+.. _GHActions: https://github.com/mne-tools/mne-project-template/actions
 
 .. |Codecov| image:: https://codecov.io/gh/mne-tools/mne-project-template/branch/master/graph/badge.svg
 .. _Codecov: https://codecov.io/gh/mne-tools/mne-project-template
