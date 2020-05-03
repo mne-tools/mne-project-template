@@ -11,3 +11,7 @@ jobs:
       with:
         pre-build-command: "pip install ."
         docs-folder: "doc/"
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentationHTML
+        path: doc/_build/html/
