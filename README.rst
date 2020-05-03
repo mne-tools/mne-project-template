@@ -1,12 +1,9 @@
 .. -*- mode: rst -*-
 
-|Travis|_ |AppVeyor|_ |Codecov|_ |CircleCI|_ |ReadTheDocs|_
+|GHActions|_ |Codecov|_ |CircleCI|_
 
-.. |Travis| image:: https://travis-ci.org/mne-tools/mne-project-template.svg?branch=master
-.. _Travis: https://travis-ci.org/mne-tools/mne-project-template
-
-.. |AppVeyor| image:: https://ci.appveyor.com/api/projects/status/4qrnsuohh5g53i5u?svg=true
-.. _AppVeyor: https://ci.appveyor.com/project/mne-tools/mne-project-template
+.. |GHActions| image:: https://github.com/mne-tools/mne-project-template/workflows/build/badge.svg
+.. _GHActions: https://github.com/mne-tools/mne-project-template/actions
 
 .. |Codecov| image:: https://codecov.io/gh/mne-tools/mne-project-template/branch/master/graph/badge.svg
 .. _Codecov: https://codecov.io/gh/mne-tools/mne-project-template
@@ -14,20 +11,17 @@
 .. |CircleCI| image:: https://circleci.com/gh/mne-tools/mne-project-template.svg?style=svg
 .. _CircleCI: https://circleci.com/gh/mne-tools/mne-project-template/tree/master
 
-.. |ReadTheDocs| image:: https://readthedocs.org/projects/mne-project-template/badge/?version=latest
-.. _ReadTheDocs: https://mne-project-template.readthedocs.io/en/latest/?badge=latest
-
 mne-project-template - A template for mne-python compatible extensions
 ======================================================================
 
-.. _mne-python: https://martinos.org/mne/stable/index.html
+.. _mne-python: https://mne.tools
 
 **mne-project-template** is a template project for mne-python_ compatible
 extensions.
 
 *Thank you for cleanly contributing to the mne-python ecosystem!*
 
-.. _documentation: https://mne-project-template.readthedocs.io/en/latest/quick_start.html
+.. _documentation: https://mne.tools/mne-project-template
 
 Refer to the documentation_ to modify the template for your own mne-python
 extension or follow this quick reference::
@@ -42,7 +36,3 @@ extension or follow this quick reference::
     $ git remote add origin https://github.com/your_remote/mne-foo.git
     $ git push origin master
     $ # Activate all CIs
-
-Notice that appveyor badge image needs to be updated manually. Go where ``_AppVeyor:`` pints
-in the resulting `README.rst` after bootstraping and substitute `4qrnsuohh5g53i5u` with
-the relevant information from `settings` -> `badges` in appveyor's website of your project.
