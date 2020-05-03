@@ -20,7 +20,7 @@ MAINTAINER_EMAIL = 'user@mail.edu'
 URL = 'https://github.com/mne-tools/mne-project-template'
 LICENSE = 'new BSD'
 DOWNLOAD_URL = 'https://github.com/mne-tools/mne-project-template'
-VERSION = __version__
+VERSION = __version__  # noqa
 INSTALL_REQUIRES = ['numpy', 'scipy', 'mne']
 CLASSIFIERS = ['Intended Audience :: Science/Research',
                'Intended Audience :: Developers',
@@ -32,10 +32,11 @@ CLASSIFIERS = ['Intended Audience :: Science/Research',
                'Operating System :: POSIX',
                'Operating System :: Unix',
                'Operating System :: MacOS',
-               'Programming Language :: Python :: 2.7',
                'Programming Language :: Python :: 3.5',
                'Programming Language :: Python :: 3.6',
-               'Programming Language :: Python :: 3.7']
+               'Programming Language :: Python :: 3.7',
+               'Programming Language :: Python :: 3.8',
+               ]
 EXTRAS_REQUIRE = {
     'tests': [
         'pytest',
