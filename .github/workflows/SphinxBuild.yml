@@ -15,7 +15,9 @@ jobs:
     # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
       with:
+        pre-build-command: "pip install sphinx_gallery"
         docs-folder: "doc/"
+
     # Publish built docs to gh-pages branch.
     # ===============================
     - name: Commit documentation changes
